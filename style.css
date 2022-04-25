@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(251, 218, 97);
+    background: linear-gradient(180deg, rgba(251, 218, 97, 1) 0%, rgba(255, 90, 205, 1) 100%);
+}
+
+main{
+    display: flex;
+    /* width: 65%;
+    height: 75%; */
+    width: 920px;
+    height: 509px;
+    background-color: #fff;
+    border-radius: 23px;
+}
+
+.pic{
+    width: 45%;
+    height: 100%;
+    background: blue;
+}
+.faq{
+    width: 55%;
+    height: 100%;
+    background: red;
+}
