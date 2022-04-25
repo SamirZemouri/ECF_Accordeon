@@ -43,16 +43,17 @@ main {
     cursor: pointer;
 } */
 
-.qst {
-    margin-bottom: 20px;
+.qst{
+    font-weight: 400;
+    padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #e1e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
     display: flex;
     align-items: center;
     border: none;
-    outline: none;
     transition: 0.4s;
     cursor: pointer;
+    outline: none;
 }
 
 .qst:after {
@@ -74,6 +75,9 @@ main {
     color: #FF5ACD;
 }
 
+.borderB{
+    border-bottom: 1px solid #e1e1e1;
+}
 
 .dropdown {
     width: 14px;
@@ -87,11 +91,30 @@ h1 {
 
 .panel {
     display: none;
-    max-height: 3;
+    max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    padding-bottom: 20px;
+    background-color: blue;
 }
+
 
 p {
     margin: 0;
+}
+
+span{
+    font-weight: 700;
+}
+
+.qst-bold{
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
 }
