@@ -56,15 +56,19 @@
         position: relative;
     }
 
+    .pic {
+        position: relative;
+    }
+
     .bg-mobile {
         display: block;
         position: absolute;
-        top: 96px;
-        right: 166px;
+        top: -155px;
+        right: -34px;
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
     main {
         display: flex;
         flex-direction: column;
@@ -89,6 +93,10 @@
         position: relative;
     }
 
+    .pic {
+        position: relative;
+    }
+
     .bg-desktop {
         display: none;
     }
@@ -96,8 +104,8 @@
     .bg-mobile {
         display: block;
         position: absolute;
-        top: 97px;
-        right: 65px;
+        top: -160px;
+        right: -32px;
     }
 
     .qst {
@@ -111,11 +119,18 @@
 
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 330px) {
+
+    .pic {
+        position: relative;
+    }
+
     .bg-mobile {
         display: block;
         position: absolute;
-        top: 97px;
-        right: 47px;
+        top: -160px;
+        right: -46px;
     }
+
+
 }
