@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <title>ECF Accordeon</title>
 </head>
 
@@ -17,17 +18,21 @@
     <main>
 
         <div class="pic">
-            <img src="./assets/images/BG 2.png" alt="">
+            <img class="bg-desktop" src="./assets/images/BG2.png" alt="">
+            <img class="bg-mobile" src="./assets/images/Losange-BG2.png" alt="">
+            <!-- <img class="bg-mobile"src="./assets/images/BG-mobile-version.png" alt=""> -->
         </div>
 
         <div class="faq">
             <h1>FAQ</h1>
-            <div class="question">
+            <div class="question" id="boldy">
                 <div class="borderB">
-                    <div class="qst">Comment Changer les droits sur Linux ?
+                    <div class="qst">Comment changer les droits sur Linux ?
                     </div>
                     <div class="panel">
-                        <p>Lorem ipsum..</p>
+                        <p>La commande chmod permet de modifier les droits et permissions. On utilise cette dernière en
+                            indiquant l'utilisateur (u, g, o ou a), les actions "+, -, =" et le droit concerné "r, w,
+                            x".</p>
                     </div>
                 </div>
                 <div class="borderB">
@@ -43,21 +48,23 @@
                     <div class="qst">Est-il possible de modifier un commit ?
                     </div>
                     <div class="panel">
-                        <p>Lorem ipsum..</p>
+                        <p>La commande git commit --amend permet de modifier facilement le commit le plus récent.</p>
                     </div>
                 </div>
                 <div class="borderB">
                     <div class="qst">Comment mettre à jour Ubuntu ?
                     </div>
                     <div class="panel">
-                        <p>Lorem ipsum..</p>
+                        <p>La commande "sudo apt update" sert à chercher si des mises à jour sont disponibles, ensuite
+                            pour commencer la mise à jour du système, on utilise la commande "sudo apt upgrade". </p>
                     </div>
                 </div>
                 <div class="borderB">
                     <div class="qst">Dois-je mettre la balise fin PHP ?> ?
                     </div>
                     <div class="panel">
-                        <p>Lorem ipsum..</p>
+                        <p>La balise de fin de PHP n'est pas obligatoire, si les scripts sont destinés à être inclus ou
+                            requis, il est préférable de ne pas fermer la balise PHP pour moins de "problèmes".</p>
                     </div>
                 </div>
             </div>

@@ -44,7 +44,7 @@ main {
 } */
 
 .qst{
-    font-weight: 400;
+    font-weight: normal;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #e1e1e1;
@@ -75,6 +75,7 @@ main {
     color: #FF5ACD;
 }
 
+
 .borderB{
     border-bottom: 1px solid #e1e1e1;
 }
@@ -90,25 +91,19 @@ h1 {
 }
 
 .panel {
-    display: none;
+    /* display: none; */
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    padding-bottom: 20px;
-    background-color: blue;
+    transition: max-height 0.3s ease-out;
 }
 
-
-p {
-    margin: 0;
-}
 
 span{
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .qst-bold{
-    font-weight: 700;
+    font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #e1e1e1;
@@ -117,4 +112,12 @@ span{
     border: none;
     transition: 0.4s;
     cursor: pointer;
+}
+p{
+    color: #787887;
+    margin-top: 0px;
+}
+
+.bg-mobile{
+    display: none;
 }
