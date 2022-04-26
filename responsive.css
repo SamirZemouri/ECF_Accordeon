@@ -26,12 +26,13 @@
     .faq {
         margin-top: 0px;
     }
-    .question{
+
+    .question {
         width: 91%;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     main {
         display: flex;
         flex-direction: column;
@@ -41,6 +42,7 @@
         width: 330px;
         height: 550px;
     }
+
     .bg-desktop {
         display: none;
     }
@@ -94,7 +96,7 @@
     .bg-mobile {
         display: block;
         position: absolute;
-        top:97px;
+        top: 97px;
         right: 65px;
     }
 
@@ -109,11 +111,11 @@
 
 }
 
-@media only screen and (max-width: 390px)  {
+@media only screen and (max-width: 390px) {
     .bg-mobile {
         display: block;
         position: absolute;
-        top:97px;
+        top: 97px;
         right: 47px;
     }
 }
